@@ -1,0 +1,29 @@
+Final Project Idea: WebSite for current and future Stories Proposal
+
+Needs:
+	-main screen:
+		-menu bar of sections
+		-sections:
+			-about
+			-story selection
+				-images each leading to different pages about each story
+			-lore pages (see story selection subpoint)
+			-contact area
+			-bottom bar with quicklinks to pages 
+	-Story/ Lore Pages:
+		-menu bar of sections and link to main menu
+		-table o' contents
+		-info
+		-comment/ contact (fan art submission) area
+		-fan art area 
+	- About 
+		-about stuff
+
+Wants:
+	-working image slideshow/slider ting
+	-working comment/ contact (fan art submission) section 
+	-working contact area
+	-colourful, have pictures, etc.
+	-"hub" pages for lore and story pages
+
+GITHUB Repository: https://github.com/TheDarkScholar/BlackthornBooks 
