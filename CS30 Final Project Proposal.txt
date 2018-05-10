@@ -1,5 +1,9 @@
 Final Project Idea: WebSite for current and future Stories Proposal
 
+My Final Project is creating a website for the stories that I am working on. I plan to code it all
+using mostly html and css with js doing some of more complex parts such as sliders, live comment 
+sections, contact areas, etc. 
+
 Needs:
 	-main screen:
 		-menu bar of sections
@@ -14,15 +18,15 @@ Needs:
 		-menu bar of sections and link to main menu
 		-table o' contents
 		-info
-		-comment/ contact (fan art submission) area
+		-comment/ fan art submission area
 		-fan art area 
 	- About 
 		-about stuff
 
 Wants:
-	-working image slideshow/slider ting
-	-working comment/ contact (fan art submission) section 
-	-working contact area
+	-properly working image slideshow/slider thing
+	-properly working comment/ fan art submission section 
+	-properly working contact area
 	-colourful, have pictures, etc.
 	-"hub" pages for lore and story pages
 
