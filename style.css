@@ -2,3 +2,27 @@ header{
 	height: 600px;
 	text-align: center;
 }
+
+#About{
+	font-size:20px;
+	text-align: center;
+	background-color: grey;
+}
+#StorySelection{
+	font-size:20px;
+	text-align: center;
+}
+#LorePages{
+	font-size:20px;
+	text-align: center;
+	background-color: grey;
+}
+#ContactArea{
+	font-size:20px;
+	text-align: center;
+}
+#BottomBar{
+	font-size:20px;
+	text-align: center;
+	background-color: black;
+}
