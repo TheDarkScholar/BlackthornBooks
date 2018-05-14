@@ -1,68 +1,151 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Blackthorn Books</title>
-    <style>
+<head>
+  <title>Blackthorn Books</title>
+  <style>
     ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-li {
-    float: left;
-}
+    li {
+      float: left;
+    }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-li a:hover {
-    background-color: #111;
-}
-    </style>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
+    li a:hover {
+      background-color: #111;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
   <header>
     <h1>Blackthorn Books</h1>
-  <hr>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="#About">About</a></li>
-      <li><a href="#StorySelection">Stories</a></li>
-      <li><a href="#LorePages">Story Lore</a></li>
-      <li><a href="#ContactArea">Contact</a></li>
-    </ul>
-  </nav>
-  <section id="About">
+    <hr>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#StorySelection">Stories</a></li>
+        <li><a href="#LorePages">Story Lore</a></li>
+        <li><a href="#ContactArea">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="About">
+      <p> Generic ABout Text with link</p>
+    </section>
 
-  </section>
+    <section id="StorySelection">
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <div class="numbertext">1 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption1a</div>
+        </div>
 
-  <section id="StorySelection">
+        <div class="mySlides1">
+          <div class="numbertext">2 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption2a</div>
+        </div>
 
-  </section>
+        <div class="mySlides1">
+          <div class="numbertext">3 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption3a</div>
+        </div>
 
-  <section id="LorePages">
+        <div class="mySlides1">
+          <div class="numbertext">4 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption4a</div>
+        </div>
 
-  </section>
+        <div class="mySlides1">
+          <div class="numbertext">5 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption5a</div>
+        </div>
 
-  <section id="ContactArea">
+        <div class="mySlides1">
+          <div class="numbertext">6 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption6a</div>
+        </div>
 
-  </section>
+        <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+      </div>
+      <br>
 
-  <section id="BottomBar">
+    </section>
 
-  </section>
+    <section id="LorePages">
+      <div class="slideshow-container">
+        <div class="mySlides2">
+          <div class="numbertext">1 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption1b</div>
+        </div>
 
-  </body>
+        <div class="mySlides2">
+          <div class="numbertext">2 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption2b</div>
+        </div>
+
+        <div class="mySlides2">
+          <div class="numbertext">3 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption3b</div>
+        </div>
+
+        <div class="mySlides2">
+          <div class="numbertext">4 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption4b</div>
+        </div>
+
+        <div class="mySlides2">
+          <div class="numbertext">5 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption5b</div>
+        </div>
+
+        <div class="mySlides2">
+          <div class="numbertext">6 / 6</div>
+          <img src="img1.jpg" style="width:100%">
+          <div class="text">caption6b</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+      </div>
+      <br>
+
+    </section>
+
+    <section id="ContactArea">
+      <p> generic contac aea</P>
+    </section>
+
+    <section id="BottomBar">
+      <footer> <p>generic website footer</p></footer>
+    </section>
+    <script type="text/javascript" script src="scripts.js"></script>
+</body>
 
 </html>
