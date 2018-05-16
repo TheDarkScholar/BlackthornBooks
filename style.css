@@ -6,7 +6,7 @@ header{
 #About{
 	font-size:20px;
 	text-align: center;
-	background-color: grey;
+	background-color: lightblue;
 }
 #StorySelection{
 	font-size:20px;
@@ -15,7 +15,7 @@ header{
 #LorePages{
 	font-size:20px;
 	text-align: center;
-	background-color: grey;
+	background-color: lightblue;
 }
 #ContactArea{
 	font-size:20px;
@@ -35,7 +35,7 @@ header{
   margin: auto;
 }
 
-.mySlides {
+.mySlides, .mySlides2 {
     display: none;
 }
 
@@ -84,7 +84,7 @@ header{
   top: 0;
 }
 
-.dot {
+.dot, .dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -95,7 +95,7 @@ header{
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active, .dot:hover, .dot2:hover {
   background-color: #717171;
 }
 
