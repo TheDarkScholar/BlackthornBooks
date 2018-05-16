@@ -29,7 +29,7 @@ header{
 
 * {box-sizing:border-box}
 
-.slideshow-container {
+.slideshow-container, .slideshow-container2 {
   max-width: 1000px;
   position: relative;
   margin: auto;
