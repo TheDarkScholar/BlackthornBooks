@@ -29,6 +29,7 @@ li a:hover {
 }
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link
   </head>
   <body>
   <header>
@@ -37,12 +38,70 @@ li a:hover {
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="#Story Selection">Stories</a></li>
-      <li><a href="#Lore Pages">Story Lore</a></li>
-      <li><a href="#Contact Area">Contact</a></li>
+      <li><a href="index.html#About">About</a></li>
+      <li><a href="index.html#Story Selection">Stories</a></li>
+      <li><a href="index.html#Lore Pages">Story Lore</a></li>
+      <li><a href="indec.html#Contact Area">Contact</a></li>
     </ul>
   </nav>
 
+  <section id="Lore">
+    <h3>StoryTitleLore</h3>
+    <img src="genericlorecover.jpg">
 
+    <section id="LoreTableofContents">
+      <p>Typical Table of Contents</p>
+    </section>
+
+    <section id="CharacterLore">
+      <p> Generic Character Lore</p>
+    </section>
+
+    <section id="WorldLore">
+      <p>Generic Lore About the World</p>
+    </section>
+
+    <section id="OtherLore/Interestingfacts">
+      <p>other interesting Lore and facts</p>
+    </section>
+
+  </section>
+
+  <section id="ContactArea">
+    <h3>Contact</h3>
+    <p> Have something to add or say? Want to send in fan art? </p>
+    <div class="container">
+      <form action="contactform.php">
+        <label for="uname">Username</label>
+        <input type="text" name="username" placeholder="Username">
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" name="email" placeholder="Email">
+        <br>
+        <label for="image">Image</label>
+        <input type="url" name="image" placeholder="Image">
+        <br>
+        <textarea id="subject" name="subject" placeholder="Have Something to say?" style="height.200px"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </section>
+
+  <section id="BottomBar">
+    <footer>
+      <a href="index.html">Home</a>     <a href="about.html">About</a>     <a href="psionsofearth.html">Psions Of Earth</a>
+      <br>
+      <a href="wastesofhelmar.html">Wastes Of Helmar</a>      <a href="terrashattered.html">Terra Shattered</a>      <a href="ajourneyoftherinmir.html">A Journey Of Therinmir</a>
+      <br>
+      <a href="ramblingsofthedarkscholar.html">Ramblings Of The Dark Scholar</a>     <a href="story6.html">Story #6</a>      <a href="lore1(POE).html">Lore: P.O.E</a>
+      <br>
+      <a href="lore2(WoH).html">Lore: W.O.H</a>     <a href="lore3(TS).html">Lore: T.S.</a>     <a href="lore4(AJoT).html">Lore: A.J.O.T</a>
+      <br>
+      <a href="lore5.RotDS.html">Lore: R.O.T.D.S</a>     <a href="lore6.html">Lore: Story #6</a>
+      <br>
+      <p>@Copyright Blackthorn Books, 2018</p>
+    </footer>
+  </section>
+</body>
 </html>

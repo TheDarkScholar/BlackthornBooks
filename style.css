@@ -5,6 +5,9 @@ header{
 h1{
 	text-align: center;
 }
+h3{
+	text-align: center;
+}
 #About{
 	font-size:20px;
 	text-align: left;
@@ -29,6 +32,23 @@ h1{
 	text-align:inherit;
 	background-color: lightblue;
 }
+
+#AboutStory{
+	font-size:20px;
+	text-align: left;
+	background-color: lightblue;
+}
+#Characters{
+	font-size:20px;
+	text-align: left;
+	background-color: #666768;
+}
+#Synopsis{
+	font-size:20px;
+	text-align: left;
+	background-color: grey;
+}
+
 /* Slide Shows*/
 * {box-sizing:border-box}
 
