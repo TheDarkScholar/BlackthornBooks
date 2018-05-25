@@ -30,23 +30,20 @@ h3{
 #BottomBar{
 	font-size:15px;
 	text-align:inherit;
-	background-color: lightblue;
+	background-color: grey
 }
 
 #AboutStory{
 	font-size:20px;
 	text-align: left;
-	background-color: lightblue;
 }
 #Characters{
 	font-size:20px;
 	text-align: left;
-	background-color: #666768;
 }
 #Synopsis{
 	font-size:20px;
 	text-align: left;
-	background-color: grey;
 }
 
 /* Slide Shows*/
@@ -165,6 +162,5 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #666768;
     padding: 20px;
 }
