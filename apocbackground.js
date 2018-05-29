@@ -1,7 +1,7 @@
 particlesJS("particle-container", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 150,
       "density": {
         "enable": true,
         "value_area": 800
@@ -17,7 +17,7 @@ particlesJS("particle-container", {
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 4
       },
       "image": {
         "src": "img/github.svg",
@@ -46,20 +46,20 @@ particlesJS("particle-container", {
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 60,
-      "color": "#00C000",
+      "color": "#000000",
       "opacity": 0.8,
       "width": 4
     },
     "move": {
       "enable": true,
       "speed": 0.75,
-      "direction": "right",
+      "direction": "bottom",
       "random": true,
       "straight": false,
       "out_mode": "out",
-      "bounce": true,
+      "bounce": false,
       "attract": {
         "enable": false,
         "rotateX": 600,
