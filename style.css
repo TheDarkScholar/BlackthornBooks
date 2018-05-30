@@ -8,10 +8,12 @@ h1{
 h3{
 	text-align: center;
 }
+
+
 #About{
 	font-size:20px;
 	text-align: left;
-	background-color: lightblue;
+	background-color:	#396E9E;
 }
 #StorySelection{
 	font-size:20px;
@@ -20,17 +22,17 @@ h3{
 #LorePages{
 	font-size:20px;
 	text-align: center;
-	background-color: lightblue;
+	background-color:	#396E9E;
 }
 #ContactArea{
 	font-size:20px;
 	text-align: center;
-	background-color: #666768;
+	background-color: transparent;
 }
 #BottomBar{
 	font-size:15px;
 	text-align:inherit;
-	background-color: grey
+	background-color:	#396E9E;
 }
 
 #AboutStory{

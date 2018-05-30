@@ -1,10 +1,10 @@
 body {
   margin: 0;
-
   background: #0F304E;
 }
 
 canvas {
+  z-index: -1;
   display: block;
   vertical-align: bottom;
 }
@@ -12,6 +12,7 @@ canvas {
 /* Particle container. */
 
 #particle-container {
+  z-index: -1;
   position:fixed;
   width: 100%;
   height: 100%;
