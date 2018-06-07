@@ -5,28 +5,55 @@
     <title>About</title>
     <style>
     ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-li {
-    float: left;
-}
+    li {
+        float: left;
+        border-right:1px solid #bbb;
+    }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+    li a, .dropbtn{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-li a:hover {
-    background-color: #111;
-}
+    li a:hover, .dropdown:hover .dropbtn{
+      background-color: #111;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #333;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #111
+  }
+
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+
     </style>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -38,15 +65,35 @@ li a:hover {
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="index.html#Story Selection">Stories</a></li>
-      <li><a href="index.html#Lore Pages">Story Lore</a></li>
-      <li><a href="indec.html#Contact Area">Contact</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Stories</a>
+        <div class="dropdown-content">
+          <a href="psionsofearth.html">Psions of Earth</a>
+          <a href="wastesofhelmar.html">Wastes of Helmar</a>
+          <a href="terrashattered.html">Terra Shattered</a>
+          <a href="ajourneyoftherinmir.html">A Journey of Therinmir</a>
+          <a href="ramblingsofthedarkscholar.html">Ramblings of the Dark Scholar</a>
+          <a href="story6.html">Story 6</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Story Lore</a>
+        <div class="dropdown-content">
+          <a href="lore1(PoE).html">Psions of Earth</a>
+          <a href="lore2(WoH).html">Wastes of Helmar</a>
+          <a href="lore3(TS).html">Terra Shattered</a>
+          <a href="lore4(AJoT).html">A Journey of Therinmir</a>
+          <a href="lore5(RotDS).html">Ramblings of the Dark Scholar</a>
+          <a href="lore6.html">Story 6</a>
+        </div>
+      </li>
+      <li><a href="#ContactArea">Contact</a></li>
     </ul>
   </nav>
   <hr>
   <section id="AboutBooks">
   <hr>
-    <p> Blackthorn Books are stories that are currently in development and have/ will have references within to each other.</p>
+    <p> Blackthorn Books are stories that are currently in development and will have references within to each other and/ or shared events/ characters.</p>
     <p> All Blackthorn Books are written by Michael Fourie...</p>
   </section>
   <hr>
@@ -54,6 +101,24 @@ li a:hover {
     <hr>
     <p> Info about author</p>
     <hr>
+  </section>
+  <hr>
+  <section id="ContactArea">
+    <h3>Contact</h3>
+    <p> Want to Contact me? Have Something to say? You've come to the right place:</p>
+    <div class="container">
+      <form action="contactform.php">
+        <label for="uname">Username</label>
+        <input type="text" id="uname" name="username" placeholder="Username">
+        <br>
+        <label for="mail">Email</label>
+        <input type="text" id="mail" name="email" placeholder="Email">
+        <br>
+        <textarea id="subject" name="subject" placeholder="Have Something to say?" style="height.200px"></textarea>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
   </section>
 
   <section id="BottomBar">
