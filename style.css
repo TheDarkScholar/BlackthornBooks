@@ -35,15 +35,37 @@ h3{
 }
 
 #AboutStory{
-
 	font-size:20px;
-	text-align: left;
+	text-align: center;
 }
 #Characters{
 	font-size:20px;
 	text-align: left;
 }
 #Synopsis{
+	font-size:20px;
+	text-align: left;
+}
+
+#Lore{
+	font-size:20px;
+	text-align: center;
+
+}
+#LoreTableofContents{
+	font-size:20px;
+	text-align: center;
+
+}
+#CharacterLore{
+	font-size:20px;
+	text-align: left;
+}
+#WorldLore{
+	font-size:20px;
+	text-align: left;
+}
+#OtherLore{
 	font-size:20px;
 	text-align: left;
 }
